@@ -1,0 +1,63 @@
+{
+  "id": "5069bfbd-b653-40ce-b8c4-d70227584e69",
+  "name": "exit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thank you be back again , I hope that you liked it."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530949034,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "6879b9f3-7fdb-4ad7-a23a-b80944de2632",
+      "data": [
+        {
+          "text": "leave"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527083092,
+      "isAuto": false
+    },
+    {
+      "id": "646df60b-3ea2-4b8e-ae9a-4e26af780edf",
+      "data": [
+        {
+          "text": "exit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527083092,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

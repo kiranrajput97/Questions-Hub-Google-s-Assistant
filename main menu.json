@@ -1,0 +1,89 @@
+{
+  "id": "79ccadc5-3107-492d-b9cf-dc3ed659c4c0",
+  "name": "main menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "Home page of the app"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Java"
+            },
+            {
+              "title": "Python"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530947889,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c241cd3f-d810-4673-984e-210a97588774",
+      "data": [
+        {
+          "text": "main menu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527082336,
+      "isAuto": false
+    },
+    {
+      "id": "4cb8f386-5560-435d-906f-3c5181f6e616",
+      "data": [
+        {
+          "text": "questions for interview"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527082336,
+      "isAuto": false
+    },
+    {
+      "id": "b632b23d-c401-4445-a703-90ea27809881",
+      "data": [
+        {
+          "text": "interview questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527082336,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

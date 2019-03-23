@@ -1,0 +1,224 @@
+{
+  "id": "d17115a5-d1e1-41db-838c-feb7471fd0a1",
+  "name": "python",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "This is the section of python interview"
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "title": "python",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "1",
+                "synonyms": []
+              },
+              "title": "Q. What is Python?",
+              "description": "A. Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages."
+            },
+            {
+              "optionInfo": {
+                "key": "2",
+                "synonyms": []
+              },
+              "title": "Q. Name some of the features of Python.",
+              "description": "A. It supports functional and structured programming methods as well as OOP.\n\nIt supports automatic garbage collection."
+            },
+            {
+              "optionInfo": {
+                "key": "3",
+                "synonyms": []
+              },
+              "title": "Q. Is python a case sensitive language?",
+              "description": "A. Yes! Python is a case sensitive programming language."
+            },
+            {
+              "optionInfo": {
+                "key": "4",
+                "synonyms": []
+              },
+              "title": "Q. What are tuples in Python?",
+              "description": "A. A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parentheses."
+            },
+            {
+              "optionInfo": {
+                "key": "5",
+                "synonyms": []
+              },
+              "title": "Q. What are Python's dictionaries?",
+              "description": "A. Python's dictionaries are kind of hash table type. They work like associative arrays or hashes found in Perl and consist of key-value pairs. A dictionary key can be almost any Python type, but are usually numbers or strings. Values, on the other hand, can be any arbitrary Python object."
+            },
+            {
+              "optionInfo": {
+                "key": "6",
+                "synonyms": []
+              },
+              "title": "Q. What is the purpose of ** operator?",
+              "description": "A. ** Exponent − Performs exponential (power) calculation on operators. a**b = 10 to the power 20 if a = 10 and b = 20."
+            },
+            {
+              "optionInfo": {
+                "key": "7",
+                "synonyms": []
+              },
+              "title": "Q. What is the purpose of // operator?",
+              "description": "A. // Floor Division − The division of operands where the result is the quotient in which the digits after the decimal point are removed."
+            },
+            {
+              "optionInfo": {
+                "key": "8",
+                "synonyms": []
+              },
+              "title": "What is the purpose of is operator?",
+              "description": "A. is − Evaluates to true if the variables on either side of the operator point to the same object and false otherwise. x is y, here is results in 1 if id(x) equals id(y)."
+            },
+            {
+              "optionInfo": {
+                "key": "9",
+                "synonyms": []
+              },
+              "title": "Q. What is the purpose of not in operator?",
+              "description": "A. not in − Evaluates to true if it does not finds a variable in the specified sequence and false otherwise. x not in y, here not in results in a 1 if x is not a member of sequence y."
+            },
+            {
+              "optionInfo": {
+                "key": "10",
+                "synonyms": []
+              },
+              "title": "Q. What is the purpose break statement in python?",
+              "description": "A. break statement − Terminates the loop statement and transfers execution to the statement immediately following the loop."
+            },
+            {
+              "optionInfo": {
+                "key": "11",
+                "synonyms": []
+              },
+              "title": "Q. What is the purpose continue statement in python?",
+              "description": "A. continue statement − Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating."
+            },
+            {
+              "optionInfo": {
+                "key": "12",
+                "synonyms": []
+              },
+              "title": "Q. What is the purpose pass statement in python?",
+              "description": "A. pass statement − The pass statement in Python is used when a statement is required syntactically but you do not want any command or code to execute."
+            },
+            {
+              "optionInfo": {
+                "key": "13",
+                "synonyms": []
+              },
+              "title": "Q. How can you pick a random item from a range?",
+              "description": "A. randrange ([start,] stop [,step]) − returns a randomly selected element from range(start, stop, step)."
+            },
+            {
+              "optionInfo": {
+                "key": "14",
+                "synonyms": []
+              },
+              "title": "Q.How can you get a random number in python?",
+              "description": "A.random() − returns a random float r, such that 0 is less than or equal to r and r is less than 1."
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Main menu"
+            },
+            {
+              "title": "Java"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530948327,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "cd9a79a4-5e96-493b-8ba9-6eee68aeeabc",
+      "data": [
+        {
+          "text": "interview questions for python"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527083320,
+      "isAuto": false
+    },
+    {
+      "id": "6219a7ef-be26-4b6f-9877-91c5881d5bf3",
+      "data": [
+        {
+          "text": "python questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527083320,
+      "isAuto": false
+    },
+    {
+      "id": "d6826932-e3aa-4bf0-8426-da5606e66b3a",
+      "data": [
+        {
+          "text": "python interview questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527083320,
+      "isAuto": false
+    },
+    {
+      "id": "1e526b30-9043-4cad-80c2-e5a9756b5451",
+      "data": [
+        {
+          "text": "python"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527083320,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

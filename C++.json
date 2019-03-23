@@ -1,0 +1,152 @@
+{
+  "id": "42d66596-d2fd-4db6-bf4e-140a3a951090",
+  "name": "C++",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "list_card",
+          "platform": "google",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "1",
+                "synonyms": []
+              },
+              "title": "Q. What is the full form of OOPS?",
+              "description": "A. Object Oriented Programming System."
+            },
+            {
+              "optionInfo": {
+                "key": "2",
+                "synonyms": []
+              },
+              "title": "Q. What is a class?",
+              "description": "A. Class is a blue print which reflects the entities attributes and actions. Technically defining a class is designing an user defined data type."
+            },
+            {
+              "optionInfo": {
+                "key": "3",
+                "synonyms": []
+              },
+              "title": "Q.What is an object?",
+              "description": "A.An instance of the class is called as object."
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Main menu"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": "Here are interview questions for c++"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538114172,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e1b81274-8e84-4869-980c-07b69084fd0f",
+      "data": [
+        {
+          "text": "c++ questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538114172,
+      "isAuto": false
+    },
+    {
+      "id": "0cf9864f-4eb0-4a65-8dac-1117b7ca4900",
+      "data": [
+        {
+          "text": "some questions for c++"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538114172,
+      "isAuto": false
+    },
+    {
+      "id": "c4974772-46b9-46c9-a63e-c877bb68b408",
+      "data": [
+        {
+          "text": "C++"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538114172,
+      "isAuto": false
+    },
+    {
+      "id": "9a9d5985-2e59-4c3f-bb83-10bbfc7e2f9e",
+      "data": [
+        {
+          "text": "interview questions for c++"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538114172,
+      "isAuto": false
+    },
+    {
+      "id": "913bcefc-7bfc-4c36-8363-51f8b2b82222",
+      "data": [
+        {
+          "text": "C++ interview questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538114172,
+      "isAuto": false
+    },
+    {
+      "id": "ad7e6e3f-408d-4214-8d99-b4227fddb87d",
+      "data": [
+        {
+          "text": "tell me some interview questions of c++"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1538114172,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

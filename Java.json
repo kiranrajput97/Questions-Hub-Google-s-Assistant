@@ -1,0 +1,216 @@
+{
+  "id": "001e080a-853a-40b4-b161-c94fc12f1548",
+  "name": "Java",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "textToSpeech": "This is the list java interview questions"
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "title": "Java",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "1",
+                "synonyms": []
+              },
+              "title": "Q. What is java?",
+              "description": "A. Java is a high-level programming language originally developed by Sun Micro systems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX."
+            },
+            {
+              "optionInfo": {
+                "key": "2",
+                "synonyms": []
+              },
+              "title": "Q. List any five features of Java?",
+              "description": "A. Some features include Object Oriented, Platform Independent, Robust, Interpreted, Multi-threaded"
+            },
+            {
+              "optionInfo": {
+                "key": "3",
+                "synonyms": []
+              },
+              "title": "Q.Why is Java Architectural Neutral?",
+              "description": "A. It’s compiler generates an architecture-neutral object file format, which makes the compiled code to be executable on many processors, with the presence of Java runtime system."
+            },
+            {
+              "optionInfo": {
+                "key": "4",
+                "synonyms": []
+              },
+              "title": "Q.How Java enabled High Performance?",
+              "description": "A. Java uses Just-In-Time compiler to enable high performance. Just-In-Time compiler is a program that turns Java bytecode, which is a program that contains instructions that must be interpreted into instructions that can be sent directly to the processor."
+            },
+            {
+              "optionInfo": {
+                "key": "5",
+                "synonyms": []
+              },
+              "title": "Q.Why Java is considered dynamic?",
+              "description": "A. It is designed to adapt to an evolving environment. Java programs can carry extensive amount of run-time information that can be used to verify and resolve accesses to objects on run-time."
+            },
+            {
+              "optionInfo": {
+                "key": "6",
+                "synonyms": []
+              },
+              "title": "Q. List two Java IDE’s?",
+              "description": "A. Netbeans, Eclipse, etc."
+            },
+            {
+              "optionInfo": {
+                "key": "7",
+                "synonyms": []
+              },
+              "title": "Q.What is a Local Variable?",
+              "description": "A. Variables defined inside methods, constructors or blocks are called local variables. The variable will be declared and initialized within the method and it will be destroyed when the method has completed."
+            },
+            {
+              "optionInfo": {
+                "key": "8",
+                "synonyms": []
+              },
+              "title": "Q. What is a Instance Variable?",
+              "description": "A. Instance variables are variables within a class but outside any method. These variables are instantiated when the class is loaded."
+            },
+            {
+              "optionInfo": {
+                "key": "9",
+                "synonyms": []
+              },
+              "title": "Q. What is a Class Variable?",
+              "description": "A. These are variables declared with in a class, outside any method, with the static keyword."
+            },
+            {
+              "optionInfo": {
+                "key": "10",
+                "synonyms": []
+              },
+              "title": "Q.What is Singleton class?",
+              "description": "A.Singleton class control object creation, limiting the number to one but allowing the flexibility to create more objects if the situation changes."
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Main menu"
+            },
+            {
+              "title": "Python"
+            },
+            {
+              "title": "Exit"
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537884426,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "492daccc-2170-4c20-a690-5328ab691930",
+      "data": [
+        {
+          "text": "some java questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1537884426,
+      "isAuto": false
+    },
+    {
+      "id": "4f5565c0-8e48-4a66-a1e8-4d0cd3cab494",
+      "data": [
+        {
+          "text": "java questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530948591,
+      "isAuto": false
+    },
+    {
+      "id": "0d2b90b3-fbeb-412e-a72d-429f369a0c9d",
+      "data": [
+        {
+          "text": "tell me some java questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530948591,
+      "isAuto": false
+    },
+    {
+      "id": "4ccaeea5-c94e-4c3b-af99-0362fc0cd3a3",
+      "data": [
+        {
+          "text": "java interview questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530948591,
+      "isAuto": false
+    },
+    {
+      "id": "6d790f97-e501-456c-a8b2-0b95ceacfa4f",
+      "data": [
+        {
+          "text": "java"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530948591,
+      "isAuto": false
+    },
+    {
+      "id": "52650a5a-c213-46b6-a37a-0261fd04076e",
+      "data": [
+        {
+          "text": "tell me some java interview questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1530948591,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
